@@ -1,0 +1,99 @@
+.meals{
+    font-family:'Lugrasimo', sans-serif ;
+    color: gold;
+    font-size: 30px;
+}
+
+
+
+
+body{
+    background-image: url(17e46cd6b2d6cc8be831f8cb1f230718.jpg);
+    
+}
+h1{
+    color: blue;
+    font-size: 38px;
+    text-align: center;
+}
+main{
+    margin-top: 80px;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+    background-color: rgba(68, 6, 11, 0.6);
+    
+
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+.images{
+    height: 180px;
+    width: 180px;
+}
+@keyframes prices { 
+    from{
+        transform: translateX(400px);
+    }
+    to{
+        transform: translateX(-25px);
+    }
+
+    
+} 
+.trans{
+    animation: prices 4s 1 ;
+}
+@keyframes names {
+    from{
+        transform: translateX(-400px);
+
+    }
+    to{
+        transform: translateX(25px);
+    }
+    
+}
+.nana{
+    animation: names 4s 1 ;
+}
+.costs{
+    font-family: 'Bricolage' , sans-serif;
+    font-size: 45px;
+    color: rgb(231, 220, 220);
+}
+@keyframes costing {
+    0%{
+        transform: translateY(-150px);
+        
+    }
+    30%{
+        transform: translateY(9px);
+    }
+    60%{
+        transform: translateY(9px);
+    }
+    100%{
+        transform: translateY(9px);
+    }
+
+    
+}
+
+
+.images:hover{
+    height: 280px;
+    width: 280px;
+    .fee{
+        animation: costing 4s 1;
+
+    }
+}
