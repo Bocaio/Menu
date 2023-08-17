@@ -88,12 +88,12 @@ main{
     
 }
 
+.fee{
+    animation: costing 4s 1;
+
+}
 
 .images:hover{
     height: 280px;
     width: 280px;
-    .fee{
-        animation: costing 4s 1;
-
-    }
 }
